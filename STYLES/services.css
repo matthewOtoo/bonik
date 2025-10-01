@@ -1,0 +1,39 @@
+.all_services{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 0 1rem;
+}
+
+
+.service_card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.service_image img{
+    justify-content: center;
+    width: 100%;
+    padding: 0 0 0.5rem 0;
+
+}
+
+.service_type{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #444B51;
+    padding: 0 0 0.5rem 0;
+
+}
+.service_description{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #444B51;
+    line-height: 1rem;
+}
