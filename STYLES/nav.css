@@ -1,4 +1,4 @@
- /* .nav {
+/* .nav {
   display: flex;
   gap: 1.5rem;
   padding: 1rem;
@@ -26,32 +26,32 @@
   color: #ffffff;
 }  */
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .nav {
-  display: flex;
-  gap: 27.375rem;
-  padding: 1.125rem 6.125rem;
+    display: flex;
+    gap: 27.375rem;
+    padding: 1.125rem 6.125rem;
+  }
+  .nav_items {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .contact,
+  .lang {
+    display: flex;
+    gap: 0.425rem;
+    align-items: center;
+  }
+  .nav_items button {
+    border: 1px solid #e24329;
+    padding: 0.3rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #e24329;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
 
-}.nav_items {
- display: flex; 
-  gap: 2rem;
-  align-items: center;
-}
-.contact, 
-.lang {
-  display: flex;
-  gap: 0.425rem;
-  align-items: center;
-}
-.nav_items button {
-  border: 1px solid #e24329;
-  padding: 0.3rem 1.5rem;
-  border-radius: 2rem;
-  background-color: #e24329;
-  font-size: 1rem;
-  font-weight: 700;
-  font-family: "Ubuntu",sans-serif;
-  
-  color: #ffffff;
-}  
+    color: #ffffff;
+  }
 }
