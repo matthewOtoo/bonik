@@ -1,56 +1,54 @@
-.apply{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    margin-bottom: 2rem;
+.apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
-.apply_image img{
-    width: 100%;
+.apply_image img {
+  width: 100%;
 }
-.apply_descriptions_heading{
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #444B51;
-    padding-bottom: 1rem;
+.apply_descriptions_heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #444b51;
+  padding-bottom: 1rem;
 }
-.apply_main_description{
-     font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #444B51;
-    padding-bottom: 1rem;
+.apply_main_description {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444b51;
+  padding-bottom: 1rem;
+}
+.apply_descriptions button {
+  border: 1px solid #e24329;
+  border-radius: 1rem;
+  background-color: #e24329;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+}
 
-}
-.apply_descriptions button{
-    border: 1px solid #E24329;
-    border-radius: 1rem;
-    background-color: #E24329;
-    color: #FFFFFF;
-     font-weight: 700;
-     font-size: 1rem;
-     justify-content: center;
-    padding: 0.5rem 1.5rem;
-}
-
-@media screen and (min-width: 1200px){
-    .apply{
+@media screen and (min-width: 1200px) {
+  .apply {
     flex-direction: row;
-    padding: 9.5rem; 
-}
-.apply_descriptions_heading{
+    padding: 9.5rem;
+  }
+  .apply_descriptions_heading {
     font-size: 2.5rem;
     padding-bottom: 1.25rem;
-}
-.apply_main_description{
+  }
+  .apply_main_description {
     font-size: 1.125rem;
     padding-bottom: 1.75rem;
-
-}
-.apply_descriptions button{
+  }
+  .apply_descriptions button {
     border-radius: 2rem;
-     font-size: 1.125rem;
+    font-size: 1.125rem;
     padding: 0.938rem 3.063rem;
-}
+  }
 }
