@@ -1,0 +1,41 @@
+.client_container{
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+
+}
+.client_heading{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: #444B51;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.client_images{
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 3fr); */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    
+
+}
+
+@media screen and (min-width:1200px){
+.client_container{
+    padding: 0 6.75rem;
+    margin-bottom: 7.5rem;
+}
+.client_heading{
+    font-size: 2.5rem;
+    padding-bottom: 3.125rem;
+}
+
+.client_images{
+    flex-direction: row;
+    gap: 3.463rem;
+}
+}

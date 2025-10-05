@@ -1,0 +1,89 @@
+.clientTestimony_container{
+    padding: 0 1rem;
+}
+.clientMessage_heading{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #444B51;
+    padding-bottom: 1rem;
+}
+.clientMessage_subHeading{
+     font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: #444B51;
+    padding-bottom: 1rem;
+}
+
+
+.client_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.theClient_image img{
+/* width: 100%;
+height: 100%; */
+
+}
+.star_image{
+    display: flex;
+    gap: 0.625rem;
+    padding: 1.5rem 0;
+}
+
+.client_message{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #444B51;
+    padding-bottom: 2rem;
+}
+.client_name{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E24329;
+    padding-bottom: 0.5rem;
+}
+
+.clients_work{
+     font-family: "Ubuntu",sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#444B51;
+    padding-bottom: 3rem;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen and (min-width:1200px){
+    .clientTestimony_container{
+    padding: 0 11.375rem;
+}
+.clientMessage_heading{
+    font-size: 2.5rem;
+}
+.clientMessage_subHeading{
+    font-size: 1.125rem;
+    padding-bottom: 3.125rem;
+}
+.client_profile{
+    flex-direction: row;
+    gap: 5.063rem;
+}
+.theClient_image img{
+width: 100;
+height: 100;
+
+}
+
+}
