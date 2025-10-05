@@ -29,12 +29,12 @@
 @media screen and (min-width: 1200px) {
   .nav {
     display: flex;
-    gap: 27.375rem;
-    padding: 1.125rem 6.125rem;
+    gap: 24.375rem;
+    padding: 1.063rem 8.438rem;
   }
   .nav_items {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
   }
   .contact,

@@ -16,7 +16,7 @@
   border-radius: 0.7rem;
   padding: 0.5rem;
   background-color: #ffffff;
-  box-shadow: 0 2rem 0.5rem 0 #f9f1f1;
+  box-shadow: 0 0.3rem 0.6rem 0 #f9f1f1;
 }
 .card_descrition {
   display: flex;
@@ -94,6 +94,6 @@
     border-radius: 0.7rem;
     padding: 0.5rem;
     background-color: #ffffff;
-    box-shadow: 0 2rem 0.5rem 0 #f9f1f1;
+    box-shadow: 0 0.3rem 0.8rem 0 #f9f1f1;
   }
 }

@@ -30,13 +30,13 @@
   padding-bottom: 1.5rem;
 }
 .track_parcel input {
-  border: 1px solid #bdbdbd;
+  border: 1px solid #fff;
   border-radius: 1rem;
   padding: 0.7rem 1rem;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
   outline: none;
-  background: #bdbdbd;
+  background: #ffff;
 }
 .track_parcel button {
   border: 1px solid #ff6a00;
