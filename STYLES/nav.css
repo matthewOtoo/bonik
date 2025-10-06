@@ -29,13 +29,16 @@
 @media screen and (min-width: 1200px) {
   .nav {
     display: flex;
-    gap: 24.375rem;
-    padding: 1.063rem 8.438rem;
+    gap: 26.375rem;
+    padding: 1.063rem 6.125rem;
   }
   .nav_items {
     display: flex;
-    gap: 1rem;
+    flex-shrink: 0;
+    gap: 1.838rem;
     align-items: center;
+    justify-content: center;
+
   }
   .contact,
   .lang {
@@ -51,7 +54,6 @@
     font-size: 1rem;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
-
     color: #ffffff;
   }
 }
