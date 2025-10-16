@@ -1,5 +1,6 @@
 .clientTestimony_container{
     padding: 0 1rem;
+    margin-bottom: 2rem;
 }
 .clientMessage_heading{
     font-family: "Ubuntu", sans-serif;
@@ -67,6 +68,8 @@ width: 100%;
 @media screen and (min-width:1200px){
     .clientTestimony_container{
     padding: 0 7rem;
+    margin-bottom: 7.5rem;
+
 }
 .clientMessage_heading{
     font-size: 2.5rem;
