@@ -5,7 +5,7 @@
   position: relative;
   top: -3rem;
   gap: 1rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .card {
@@ -17,6 +17,9 @@
   padding: 0.5rem;
   background-color: #ffffff;
   box-shadow: 0 0.3rem 0.6rem 0 #f9f1f1;
+}
+.card:hover{
+  transform: scale(1.1);
 }
 .card_descrition {
   display: flex;
@@ -78,6 +81,7 @@
   color: #444b51;
 }
 
+
 @media screen and (min-width: 1200px) {
   .booking_container {
     flex-direction: row;
@@ -97,3 +101,5 @@
     box-shadow: 0 0.3rem 0.8rem 0 #f9f1f1;
   }
 }
+
+
